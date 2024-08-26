@@ -42,7 +42,7 @@ Future<void> main(List<String> args) async {
   }
   String appRootFolder = path.absolute("", "");
 
-  var pubFile = File("$app  RootFolder/pubspec.yaml");
+  var pubFile = File("$appRootFolder/pubspec.yaml");
   var doc = loadYaml(pubFile.readAsStringSync());
   String appName = doc['name'];
 
